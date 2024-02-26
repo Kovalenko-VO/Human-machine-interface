@@ -12,7 +12,7 @@ class StudentInfo(QWidget):
         layout = QVBoxLayout()
 
         # Прізвище, ім'я та по батькові
-        full_name_label = QLabel("Дегтяренко Артем Миколайович")
+        full_name_label = QLabel("Коваленко Владислав Олександрович")
         full_name_label.setStyleSheet("color: green; font-weight: bold;")
         layout.addWidget(full_name_label)
 
