@@ -59,11 +59,11 @@ if __name__ == "__main__":
     ]
 
     rotations = [0, 0, 0, 0, -45]
-    corner_radius = [0, 0, 0, 0, 20]  # Установите радиус закругления только для пятого квадрата
+    corner_radius = [0, 0, 0, 0, 20]  # Радіус заокруглення
 
     scene = CustomScene(colors, positions, rotations, corner_radius)
     view = QGraphicsView(scene)
-    view.resize(900, 900)  # Устанавливаем размер окна
+    view.resize(900, 900)  # Розмір вікна
     view.show()
 
     sys.exit(app.exec())
