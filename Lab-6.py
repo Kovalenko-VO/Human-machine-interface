@@ -31,7 +31,7 @@ class CustomRectItem(QGraphicsRectItem):
                 font.setUnderline(True)
             elif 'Коваленко Владислав Олександрович' in text:
                 font.setBold(True)
-            elif 'Солнце,ветер,река,песок,море' in text:
+            elif 'Пустий текст' in text:
                 font.setItalic(True)
             painter.setFont(font)
             painter.drawText(self.rect(), Qt.AlignCenter, text)
