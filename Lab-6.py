@@ -29,7 +29,7 @@ class CustomRectItem(QGraphicsRectItem):
             font = QFont("Arial", font_size)
             if 'https://www.qt.io/' in text:
                 font.setUnderline(True)
-            elif 'Селявін Дмитро Сергійович' in text:
+            elif 'Коваленко Владислав Олександрович' in text:
                 font.setBold(True)
             elif 'Солнце,ветер,река,песок,море' in text:
                 font.setItalic(True)
